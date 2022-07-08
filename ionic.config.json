@@ -1,0 +1,7 @@
+{
+  "name": "test-app-jedi",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
