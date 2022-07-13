@@ -1,6 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import type { TesterPlugin } from 'tester-plugin';
-import { Platform } from '@ionic/angular';
 
 @Component({
   selector: 'app-home',
@@ -9,7 +8,7 @@ import { Platform } from '@ionic/angular';
 })
 export class HomePage {
 
-  constructor(private platform: Platform) {}
+  constructor() {}
 
   public testEcho() {
     this.doAThing();
