@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import type { TesterPlugin } from 'tester-plugin';
+import { Tester } from 'tester-plugin';
 
 @Component({
   selector: 'app-home',
@@ -15,8 +15,8 @@ export class HomePage {
   }
 
   async doAThing() {
-    const tester = (window as any).Tester as TesterPlugin;
-    console.log(await tester.echo({value: 'HELLO TESTER!'}));
+    // const Tester = (window as any).Tester as TesterPlugin;
+    console.log(await Tester.echo({value: 'HELLO TESTER!'}));
   }
 
 }
