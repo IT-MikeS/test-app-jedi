@@ -70,13 +70,13 @@
   "description": "An Ionic project",
   "cordova": {
     "plugins": {
-      "capacitor-compat-plugin": {},
       "cordova-plugin-statusbar": {},
       "cordova-plugin-device": {},
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-webview": {},
       "cordova-plugin-ionic-keyboard": {},
-      "tester-plugin": {}
+      "tester-plugin": {},
+      "capacitor-compat-plugin": {}
     },
     "platforms": [
       "android",
