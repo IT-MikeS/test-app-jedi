@@ -1,0 +1,7 @@
+{
+  "plugins": {
+    "Tester": {
+      "logOnLoad": "Wow such config!"
+    }
+  }
+}
